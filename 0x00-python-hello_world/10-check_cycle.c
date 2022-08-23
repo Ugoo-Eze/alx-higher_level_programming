@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * check_cycle - checks if singly linked list is a cycle
@@ -16,7 +15,7 @@ int check_cycle(listint_t *list)
 	while (1)
 	{
 		/*Traverse through nodes as long as linked list node exist*/
-		if (fast->next !NULL && fast->next-> !NULL)
+		if (fast->next !NULL && fast->next->next !NULL)
 		{
 			fast = fast->next->next;
 			slow = slow->next;
@@ -28,5 +27,5 @@ int check_cycle(listint_t *list)
 		{
 			return (0);
 		}
-	} 
+	}
 }
