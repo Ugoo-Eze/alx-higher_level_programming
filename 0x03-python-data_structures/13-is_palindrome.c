@@ -4,7 +4,6 @@
  * is_pal - recursively moves pointer to linked list node and match
  * @start: pointer to head (** gives different address so not same as end)
  * @end: pointer to last node
- 
  * Return: 0 if not, 1 if palindrome
 */
 
@@ -25,7 +24,6 @@ int is_pal(listint_t **start, listint_t *end)
 /**
  * is_palindrome - determine if singly linked list is palindrome
  * @head: pointer to head of singly linked list
- 
  * Return: 0 if not, 1 if palindrome
 */
 
